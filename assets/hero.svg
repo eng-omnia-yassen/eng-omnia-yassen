@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="YOUR NAME - Front-End Developer">
+<defs>
+<linearGradient id="gMain" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF4D8D"/><stop offset=".55" stop-color="#FF9F43"/><stop offset="1" stop-color="#FFD93D"/></linearGradient>
+<linearGradient id="gCool" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DE2E6"/><stop offset="1" stop-color="#FF4D8D"/></linearGradient>
+<linearGradient id="gSun" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFD93D"/><stop offset="1" stop-color="#2DE2E6"/></linearGradient>
+<linearGradient id="bgG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1026"/><stop offset="1" stop-color="#1B1445"/></linearGradient>
+<linearGradient id="shineG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="bPink"><stop offset="0" stop-color="#FF4D8D" stop-opacity=".5"/><stop offset="1" stop-color="#FF4D8D" stop-opacity="0"/></radialGradient>
+<radialGradient id="bCyan"><stop offset="0" stop-color="#2DE2E6" stop-opacity=".4"/><stop offset="1" stop-color="#2DE2E6" stop-opacity="0"/></radialGradient>
+<radialGradient id="bOrange"><stop offset="0" stop-color="#FF9F43" stop-opacity=".45"/><stop offset="1" stop-color="#FF9F43" stop-opacity="0"/></radialGradient>
+<style>
+text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.mono{font-family:'Fira Code',Consolas,'Courier New',monospace}
+@keyframes sweep{0%{transform:translateX(-300px) skewX(-20deg)}55%,100%{transform:translateX(1250px) skewX(-20deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes floatS{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes twinkle{0%,100%{opacity:.12}50%{opacity:.95}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(26px,-14px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@keyframes wave{from{transform:translateX(0)}to{transform:translateX(-900px)}}
+.shine{animation:sweep 6s ease-in-out infinite}
+.float{animation:float 5s ease-in-out infinite}
+.floatS{animation:floatS 3.6s ease-in-out infinite}
+.drift{animation:drift 9s ease-in-out infinite}
+.tw{animation:twinkle 3s ease-in-out infinite}
+.rise{animation:rise .9s ease-out both}
+.grow{transform-box:fill-box;transform-origin:center;animation:grow 1.2s ease-out both}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.6s ease-in-out infinite}
+.wave{animation:wave 14s linear infinite}
+</style>
+
+</defs>
+
+<clipPath id="c"><rect width="900" height="320" rx="24"/></clipPath>
+<rect width="900" height="320" rx="24" fill="url(#bgG)"/>
+<g clip-path="url(#c)">
+  <circle class="drift" cx="140" cy="80" r="170" fill="url(#bPink)"/>
+  <circle class="drift" style="animation-delay:-3s" cx="780" cy="260" r="190" fill="url(#bCyan)"/>
+  <circle class="drift" style="animation-delay:-6s" cx="520" cy="40" r="120" fill="url(#bOrange)"/>
+  <circle class="tw" style="animation-delay:0.00s" cx="60" cy="40" r="2" fill="#fff"/><circle class="tw" style="animation-delay:0.37s" cx="180" cy="270" r="2.5" fill="#fff"/><circle class="tw" style="animation-delay:0.74s" cx="330" cy="60" r="2" fill="#fff"/><circle class="tw" style="animation-delay:1.11s" cx="470" cy="290" r="2" fill="#fff"/><circle class="tw" style="animation-delay:1.48s" cx="610" cy="50" r="2.5" fill="#fff"/><circle class="tw" style="animation-delay:1.85s" cx="700" cy="120" r="2" fill="#fff"/><circle class="tw" style="animation-delay:2.22s" cx="840" cy="40" r="2" fill="#fff"/><circle class="tw" style="animation-delay:2.59s" cx="860" cy="200" r="2.5" fill="#fff"/><circle class="tw" style="animation-delay:2.96s" cx="120" cy="160" r="1.8" fill="#fff"/><circle class="tw" style="animation-delay:0.33s" cx="560" cy="200" r="1.8" fill="#fff"/><circle class="tw" style="animation-delay:0.70s" cx="400" cy="20" r="2" fill="#fff"/><circle class="tw" style="animation-delay:1.07s" cx="260" cy="150" r="1.6" fill="#fff"/>
+  <text class="float" x="640" y="215" font-size="130" font-weight="700" fill="url(#gMain)" opacity=".28" style="animation-duration:6s">&lt;/&gt;</text>
+</g>
+<rect x="1.5" y="1.5" width="897" height="317" rx="23" fill="none" stroke="url(#gMain)" stroke-width="3"/>
+<text class="mono rise" style="animation-delay:.1s" x="50" y="82" font-size="15" letter-spacing="4" fill="#2DE2E6">HELLO, WORLD  /&gt;</text>
+<text class="rise" style="animation-delay:.3s" x="48" y="158" font-size="64" font-weight="800" fill="url(#gMain)">YOUR NAME</text>
+<text class="rise" style="animation-delay:.55s" x="50" y="205" font-size="30" font-weight="600" fill="#fff">Front-End Developer</text>
+<text class="mono rise" style="animation-delay:.8s" x="50" y="245" font-size="16" fill="#AEB8E6">Physics &amp; CS Graduate  ·  2025</text>
+<text class="mono rise" style="animation-delay:1s" x="50" y="285" font-size="15" fill="#FFD93D">HTML  ·  CSS  ·  SASS  ·  JavaScript  ·  TypeScript</text>
+<g clip-path="url(#c)"><rect class="shine" x="0" y="-60" width="130" height="440" fill="url(#shineG)"/></g>
+</svg>

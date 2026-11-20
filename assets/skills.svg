@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="416" viewBox="0 0 900 416" role="img" aria-label="Skills: HTML, CSS, Sass, JavaScript, TypeScript, Bootstrap, jQuery, Git, GitHub, Gulp, Responsive Design. Learning Angular">
+<defs>
+<linearGradient id="gMain" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF4D8D"/><stop offset=".55" stop-color="#FF9F43"/><stop offset="1" stop-color="#FFD93D"/></linearGradient>
+<linearGradient id="gCool" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DE2E6"/><stop offset="1" stop-color="#FF4D8D"/></linearGradient>
+<linearGradient id="gSun" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFD93D"/><stop offset="1" stop-color="#2DE2E6"/></linearGradient>
+<linearGradient id="bgG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1026"/><stop offset="1" stop-color="#1B1445"/></linearGradient>
+<linearGradient id="shineG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="bPink"><stop offset="0" stop-color="#FF4D8D" stop-opacity=".5"/><stop offset="1" stop-color="#FF4D8D" stop-opacity="0"/></radialGradient>
+<radialGradient id="bCyan"><stop offset="0" stop-color="#2DE2E6" stop-opacity=".4"/><stop offset="1" stop-color="#2DE2E6" stop-opacity="0"/></radialGradient>
+<radialGradient id="bOrange"><stop offset="0" stop-color="#FF9F43" stop-opacity=".45"/><stop offset="1" stop-color="#FF9F43" stop-opacity="0"/></radialGradient>
+<style>
+text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.mono{font-family:'Fira Code',Consolas,'Courier New',monospace}
+@keyframes sweep{0%{transform:translateX(-300px) skewX(-20deg)}55%,100%{transform:translateX(1250px) skewX(-20deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes floatS{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes twinkle{0%,100%{opacity:.12}50%{opacity:.95}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(26px,-14px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@keyframes wave{from{transform:translateX(0)}to{transform:translateX(-900px)}}
+.shine{animation:sweep 6s ease-in-out infinite}
+.float{animation:float 5s ease-in-out infinite}
+.floatS{animation:floatS 3.6s ease-in-out infinite}
+.drift{animation:drift 9s ease-in-out infinite}
+.tw{animation:twinkle 3s ease-in-out infinite}
+.rise{animation:rise .9s ease-out both}
+.grow{transform-box:fill-box;transform-origin:center;animation:grow 1.2s ease-out both}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.6s ease-in-out infinite}
+.wave{animation:wave 14s linear infinite}
+</style>
+
+</defs>
+
+<clipPath id="c"><rect width="900" height="416" rx="24"/></clipPath>
+<rect width="900" height="416" rx="24" fill="url(#bgG)"/>
+<g clip-path="url(#c)">
+  <circle class="drift" cx="90" cy="376" r="170" fill="url(#bPink)"/>
+  <circle class="drift" style="animation-delay:-4s" cx="820" cy="40" r="170" fill="url(#bCyan)"/>
+  <circle class="tw" style="animation-delay:0.00s" cx="60" cy="30" r="2" fill="#fff"/><circle class="tw" style="animation-delay:0.37s" cx="240" cy="396" r="2" fill="#fff"/><circle class="tw" style="animation-delay:0.74s" cx="520" cy="24" r="2.4" fill="#fff"/><circle class="tw" style="animation-delay:1.11s" cx="700" cy="386" r="2" fill="#fff"/><circle class="tw" style="animation-delay:1.48s" cx="860" cy="356" r="2.4" fill="#fff"/><circle class="tw" style="animation-delay:1.85s" cx="400" cy="398" r="1.8" fill="#fff"/>
+</g>
+<rect x="1.5" y="1.5" width="897" height="413" rx="23" fill="none" stroke="url(#gCool)" stroke-width="3"/><text class="mono" x="40" y="52" font-size="13" letter-spacing="3" fill="#AEB8E6">LANGUAGES</text>
+<g class="floatS" style="animation-delay:0.43s">
+<rect x="40" y="66" width="84" height="40" rx="20.0" fill="#FF4D8D" fill-opacity=".14" stroke="#FF4D8D" stroke-width="1.6"/>
+<text x="82.0" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#FF4D8D">HTML5</text>
+</g>
+<g class="floatS" style="animation-delay:0.86s">
+<rect x="138" y="66" width="74" height="40" rx="20.0" fill="#FF9F43" fill-opacity=".14" stroke="#FF9F43" stroke-width="1.6"/>
+<text x="175.0" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#FF9F43">CSS3</text>
+</g>
+<g class="floatS" style="animation-delay:1.29s">
+<rect x="226" y="66" width="141" height="40" rx="20.0" fill="#FFD93D" fill-opacity=".14" stroke="#FFD93D" stroke-width="1.6"/>
+<text x="296.5" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#FFD93D">Sass / SCSS</text>
+</g>
+<g class="floatS" style="animation-delay:1.72s">
+<rect x="381" y="66" width="132" height="40" rx="20.0" fill="#2DE2E6" fill-opacity=".14" stroke="#2DE2E6" stroke-width="1.6"/>
+<text x="447.0" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#2DE2E6">JavaScript</text>
+</g>
+<g class="floatS" style="animation-delay:2.15s">
+<rect x="527" y="66" width="132" height="40" rx="20.0" fill="#FF4D8D" fill-opacity=".14" stroke="#FF4D8D" stroke-width="1.6"/>
+<text x="593.0" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#FF4D8D">TypeScript</text>
+</g><text class="mono" x="40" y="144" font-size="13" letter-spacing="3" fill="#AEB8E6">FRAMEWORKS &amp; LIBRARIES</text>
+<g class="floatS" style="animation-delay:2.58s">
+<rect x="40" y="158" width="122" height="40" rx="20.0" fill="#FF9F43" fill-opacity=".14" stroke="#FF9F43" stroke-width="1.6"/>
+<text x="101.0" y="184" text-anchor="middle" font-size="16" font-weight="700" fill="#FF9F43">Bootstrap</text>
+</g>
+<g class="floatS" style="animation-delay:3.01s">
+<rect x="176" y="158" width="93" height="40" rx="20.0" fill="#FFD93D" fill-opacity=".14" stroke="#FFD93D" stroke-width="1.6"/>
+<text x="222.5" y="184" text-anchor="middle" font-size="16" font-weight="700" fill="#FFD93D">jQuery</text>
+</g>
+<g class="floatS" style="animation-delay:3.44s">
+<rect x="283" y="158" width="103" height="40" rx="20.0" fill="#2DE2E6" fill-opacity=".14" stroke="#2DE2E6" stroke-width="1.6"/>
+<text x="334.5" y="184" text-anchor="middle" font-size="16" font-weight="700" fill="#2DE2E6">Plugins</text>
+</g><text class="mono" x="40" y="236" font-size="13" letter-spacing="3" fill="#AEB8E6">TOOLS &amp; PRACTICES</text>
+<g class="floatS" style="animation-delay:0.27s">
+<rect x="40" y="250" width="64" height="40" rx="20.0" fill="#FF4D8D" fill-opacity=".14" stroke="#FF4D8D" stroke-width="1.6"/>
+<text x="72.0" y="276" text-anchor="middle" font-size="16" font-weight="700" fill="#FF4D8D">Git</text>
+</g>
+<g class="floatS" style="animation-delay:0.70s">
+<rect x="118" y="250" width="93" height="40" rx="20.0" fill="#FF9F43" fill-opacity=".14" stroke="#FF9F43" stroke-width="1.6"/>
+<text x="164.5" y="276" text-anchor="middle" font-size="16" font-weight="700" fill="#FF9F43">GitHub</text>
+</g>
+<g class="floatS" style="animation-delay:1.13s">
+<rect x="225" y="250" width="74" height="40" rx="20.0" fill="#FFD93D" fill-opacity=".14" stroke="#FFD93D" stroke-width="1.6"/>
+<text x="262.0" y="276" text-anchor="middle" font-size="16" font-weight="700" fill="#FFD93D">Gulp</text>
+</g>
+<g class="floatS" style="animation-delay:1.56s">
+<rect x="313" y="250" width="199" height="40" rx="20.0" fill="#2DE2E6" fill-opacity=".14" stroke="#2DE2E6" stroke-width="1.6"/>
+<text x="412.5" y="276" text-anchor="middle" font-size="16" font-weight="700" fill="#2DE2E6">Responsive Design</text>
+</g><text class="mono" x="40" y="328" font-size="13" letter-spacing="3" fill="#AEB8E6">CURRENTLY LEARNING</text>
+<g class="floatS" style="animation-delay:1.99s"><g class="pulse">
+<rect x="40" y="342" width="103" height="40" rx="20.0" fill="url(#gMain)"/>
+<text x="91.5" y="368" text-anchor="middle" font-size="16" font-weight="800" fill="#0B1026">Angular</text>
+</g></g><g clip-path="url(#c)"><rect class="shine" x="0" y="-60" width="130" height="536" fill="url(#shineG)"/></g>
+</svg>

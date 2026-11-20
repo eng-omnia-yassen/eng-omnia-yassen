@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="Thanks for visiting">
+<defs>
+<linearGradient id="gMain" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF4D8D"/><stop offset=".55" stop-color="#FF9F43"/><stop offset="1" stop-color="#FFD93D"/></linearGradient>
+<linearGradient id="gCool" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DE2E6"/><stop offset="1" stop-color="#FF4D8D"/></linearGradient>
+<linearGradient id="gSun" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFD93D"/><stop offset="1" stop-color="#2DE2E6"/></linearGradient>
+<linearGradient id="bgG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1026"/><stop offset="1" stop-color="#1B1445"/></linearGradient>
+<linearGradient id="shineG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="bPink"><stop offset="0" stop-color="#FF4D8D" stop-opacity=".5"/><stop offset="1" stop-color="#FF4D8D" stop-opacity="0"/></radialGradient>
+<radialGradient id="bCyan"><stop offset="0" stop-color="#2DE2E6" stop-opacity=".4"/><stop offset="1" stop-color="#2DE2E6" stop-opacity="0"/></radialGradient>
+<radialGradient id="bOrange"><stop offset="0" stop-color="#FF9F43" stop-opacity=".45"/><stop offset="1" stop-color="#FF9F43" stop-opacity="0"/></radialGradient>
+<style>
+text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.mono{font-family:'Fira Code',Consolas,'Courier New',monospace}
+@keyframes sweep{0%{transform:translateX(-300px) skewX(-20deg)}55%,100%{transform:translateX(1250px) skewX(-20deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes floatS{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes twinkle{0%,100%{opacity:.12}50%{opacity:.95}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(26px,-14px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@keyframes wave{from{transform:translateX(0)}to{transform:translateX(-900px)}}
+.shine{animation:sweep 6s ease-in-out infinite}
+.float{animation:float 5s ease-in-out infinite}
+.floatS{animation:floatS 3.6s ease-in-out infinite}
+.drift{animation:drift 9s ease-in-out infinite}
+.tw{animation:twinkle 3s ease-in-out infinite}
+.rise{animation:rise .9s ease-out both}
+.grow{transform-box:fill-box;transform-origin:center;animation:grow 1.2s ease-out both}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.6s ease-in-out infinite}
+.wave{animation:wave 14s linear infinite}
+</style>
+
+</defs>
+
+<clipPath id="c"><rect width="900" height="150"/></clipPath>
+<g clip-path="url(#c)">
+<text class="rise" x="450" y="52" text-anchor="middle" font-size="22" font-weight="700" fill="url(#gMain)">Thanks for stopping by!</text>
+<path class="wave" style="animation-duration:18s" d="M0,150 L0,92.0 L15,93.0 L30,94.1 L45,95.1 L60,96.1 L75,97.0 L90,97.9 L105,98.7 L120,99.4 L135,100.1 L150,100.7 L165,101.1 L180,101.5 L195,101.8 L210,101.9 L225,102.0 L240,101.9 L255,101.8 L270,101.5 L285,101.1 L300,100.7 L315,100.1 L330,99.4 L345,98.7 L360,97.9 L375,97.0 L390,96.1 L405,95.1 L420,94.1 L435,93.0 L450,92.0 L465,91.0 L480,89.9 L495,88.9 L510,87.9 L525,87.0 L540,86.1 L555,85.3 L570,84.6 L585,83.9 L600,83.3 L615,82.9 L630,82.5 L645,82.2 L660,82.1 L675,82.0 L690,82.1 L705,82.2 L720,82.5 L735,82.9 L750,83.3 L765,83.9 L780,84.6 L795,85.3 L810,86.1 L825,87.0 L840,87.9 L855,88.9 L870,89.9 L885,91.0 L900,92.0 L915,93.0 L930,94.1 L945,95.1 L960,96.1 L975,97.0 L990,97.9 L1005,98.7 L1020,99.4 L1035,100.1 L1050,100.7 L1065,101.1 L1080,101.5 L1095,101.8 L1110,101.9 L1125,102.0 L1140,101.9 L1155,101.8 L1170,101.5 L1185,101.1 L1200,100.7 L1215,100.1 L1230,99.4 L1245,98.7 L1260,97.9 L1275,97.0 L1290,96.1 L1305,95.1 L1320,94.1 L1335,93.0 L1350,92.0 L1365,91.0 L1380,89.9 L1395,88.9 L1410,87.9 L1425,87.0 L1440,86.1 L1455,85.3 L1470,84.6 L1485,83.9 L1500,83.3 L1515,82.9 L1530,82.5 L1545,82.2 L1560,82.1 L1575,82.0 L1590,82.1 L1605,82.2 L1620,82.5 L1635,82.9 L1650,83.3 L1665,83.9 L1680,84.6 L1695,85.3 L1710,86.1 L1725,87.0 L1740,87.9 L1755,88.9 L1770,89.9 L1785,91.0 L1800,92.0 L1800,150 Z" fill="#2DE2E6" fill-opacity=".30"/>
+<path class="wave" style="animation-duration:13s" d="M0,150 L0,116.0 L15,115.9 L30,115.3 L45,114.2 L60,112.6 L75,110.7 L90,108.5 L105,106.1 L120,103.6 L135,101.1 L150,98.8 L165,96.6 L180,94.8 L195,93.4 L210,92.5 L225,92.0 L240,92.1 L255,92.7 L270,93.8 L285,95.4 L300,97.3 L315,99.5 L330,101.9 L345,104.4 L360,106.9 L375,109.2 L390,111.4 L405,113.2 L420,114.6 L435,115.5 L450,116.0 L465,115.9 L480,115.3 L495,114.2 L510,112.6 L525,110.7 L540,108.5 L555,106.1 L570,103.6 L585,101.1 L600,98.8 L615,96.6 L630,94.8 L645,93.4 L660,92.5 L675,92.0 L690,92.1 L705,92.7 L720,93.8 L735,95.4 L750,97.3 L765,99.5 L780,101.9 L795,104.4 L810,106.9 L825,109.2 L840,111.4 L855,113.2 L870,114.6 L885,115.5 L900,116.0 L915,115.9 L930,115.3 L945,114.2 L960,112.6 L975,110.7 L990,108.5 L1005,106.1 L1020,103.6 L1035,101.1 L1050,98.8 L1065,96.6 L1080,94.8 L1095,93.4 L1110,92.5 L1125,92.0 L1140,92.1 L1155,92.7 L1170,93.8 L1185,95.4 L1200,97.3 L1215,99.5 L1230,101.9 L1245,104.4 L1260,106.9 L1275,109.2 L1290,111.4 L1305,113.2 L1320,114.6 L1335,115.5 L1350,116.0 L1365,115.9 L1380,115.3 L1395,114.2 L1410,112.6 L1425,110.7 L1440,108.5 L1455,106.1 L1470,103.6 L1485,101.1 L1500,98.8 L1515,96.6 L1530,94.8 L1545,93.4 L1560,92.5 L1575,92.0 L1590,92.1 L1605,92.7 L1620,93.8 L1635,95.4 L1650,97.3 L1665,99.5 L1680,101.9 L1695,104.4 L1710,106.9 L1725,109.2 L1740,111.4 L1755,113.2 L1770,114.6 L1785,115.5 L1800,116.0 L1800,150 Z" fill="#FF4D8D" fill-opacity=".38"/>
+<path class="wave" style="animation-duration:9s" d="M0,150 L0,119.3 L15,116.5 L30,113.8 L45,111.5 L60,109.9 L75,109.1 L90,109.1 L105,110.0 L120,111.7 L135,114.0 L150,116.7 L165,119.5 L180,122.2 L195,124.5 L210,126.1 L225,126.9 L240,126.9 L255,126.0 L270,124.3 L285,122.0 L300,119.3 L315,116.5 L330,113.8 L345,111.5 L360,109.9 L375,109.1 L390,109.1 L405,110.0 L420,111.7 L435,114.0 L450,116.7 L465,119.5 L480,122.2 L495,124.5 L510,126.1 L525,126.9 L540,126.9 L555,126.0 L570,124.3 L585,122.0 L600,119.3 L615,116.5 L630,113.8 L645,111.5 L660,109.9 L675,109.1 L690,109.1 L705,110.0 L720,111.7 L735,114.0 L750,116.7 L765,119.5 L780,122.2 L795,124.5 L810,126.1 L825,126.9 L840,126.9 L855,126.0 L870,124.3 L885,122.0 L900,119.3 L915,116.5 L930,113.8 L945,111.5 L960,109.9 L975,109.1 L990,109.1 L1005,110.0 L1020,111.7 L1035,114.0 L1050,116.7 L1065,119.5 L1080,122.2 L1095,124.5 L1110,126.1 L1125,126.9 L1140,126.9 L1155,126.0 L1170,124.3 L1185,122.0 L1200,119.3 L1215,116.5 L1230,113.8 L1245,111.5 L1260,109.9 L1275,109.1 L1290,109.1 L1305,110.0 L1320,111.7 L1335,114.0 L1350,116.7 L1365,119.5 L1380,122.2 L1395,124.5 L1410,126.1 L1425,126.9 L1440,126.9 L1455,126.0 L1470,124.3 L1485,122.0 L1500,119.3 L1515,116.5 L1530,113.8 L1545,111.5 L1560,109.9 L1575,109.1 L1590,109.1 L1605,110.0 L1620,111.7 L1635,114.0 L1650,116.7 L1665,119.5 L1680,122.2 L1695,124.5 L1710,126.1 L1725,126.9 L1740,126.9 L1755,126.0 L1770,124.3 L1785,122.0 L1800,119.3 L1800,150 Z" fill="#FF9F43" fill-opacity=".55"/>
+</g>
+</svg>
