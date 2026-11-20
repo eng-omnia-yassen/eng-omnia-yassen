@@ -44,7 +44,7 @@ text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
 </g>
 <rect x="1.5" y="1.5" width="897" height="317" rx="23" fill="none" stroke="url(#gMain)" stroke-width="3"/>
 <text class="mono rise" style="animation-delay:.1s" x="50" y="82" font-size="15" letter-spacing="4" fill="#2DE2E6">HELLO, WORLD  /&gt;</text>
-<text class="rise" style="animation-delay:.3s" x="48" y="158" font-size="64" font-weight="800" fill="url(#gMain)">YOUR NAME</text>
+<text class="rise" style="animation-delay:.3s" x="48" y="158" font-size="64" font-weight="800" fill="url(#gMain)">Omnia Yassen</text>
 <text class="rise" style="animation-delay:.55s" x="50" y="205" font-size="30" font-weight="600" fill="#fff">Front-End Developer</text>
 <text class="mono rise" style="animation-delay:.8s" x="50" y="245" font-size="16" fill="#AEB8E6">Physics &amp; CS Graduate  ·  2025</text>
 <text class="mono rise" style="animation-delay:1s" x="50" y="285" font-size="15" fill="#FFD93D">HTML  ·  CSS  ·  SASS  ·  JavaScript  ·  TypeScript</text>
